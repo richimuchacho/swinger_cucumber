@@ -9,4 +9,4 @@ module Swinger
   end
 end
 
-World(Swinger::RadioButton) unless in_cucumber_jvm?
+World(Swinger::RadioButton) # unless in_cucumber_jvm?

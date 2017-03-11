@@ -1,9 +1,20 @@
 require 'rubygems'
+# require 'rcov'
 require 'cucumber'
 require 'cucumber/rake/task'
 
-Cucumber::Rake::Task.new(:features) do |t|
-  #t.cucumber_opts = "test/features --format pretty"
-  #t.cucumber_opts = "test/features --format json -o cucumber.json"
-  t.cucumber_opts = "test/features --format junit -o test/reports"
+Cucumber::Rake::Task.new(:tests) do |t|
+  # if feature == ENV['ONLY']
+    t.cucumber_opts =
+  # "test/features/#{feature}.feature --color --format junit -o test/reports"
+  # else
+  #   t.cucumber_opts =
+       'test/features/*.features --color --format junit -o test/reports'
+  # end
+  # t.rcov = true
+end
+
+desc 'Run test application'
+task :test_app do
+  `java -jar test/SwingSet2.jar`
 end

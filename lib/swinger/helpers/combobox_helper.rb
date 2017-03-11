@@ -22,4 +22,4 @@ module Swinger
   end
 end
 
-World(Swinger::Combobox) unless in_cucumber_jvm?
+World(Swinger::Combobox) # unless in_cucumber_jvm?

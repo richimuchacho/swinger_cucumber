@@ -23,4 +23,4 @@ module Swinger
   end
 end
 
-World(Swinger::Identifier) unless in_cucumber_jvm?
+World(Swinger::Identifier) # unless in_cucumber_jvm?

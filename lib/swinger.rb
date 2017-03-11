@@ -10,7 +10,7 @@ def in_cucumber_jvm?
 end
 
 require 'java'
-require 'cucumber' unless in_cucumber_jvm?
+require 'cucumber' # unless in_cucumber_jvm?
 require 'rspec'
 require 'rspec/matchers'
 

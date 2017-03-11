@@ -9,4 +9,4 @@ module Swinger
   end
 end
 
-World(Swinger::Checkbox) unless in_cucumber_jvm?
+World(Swinger::Checkbox) # unless in_cucumber_jvm?

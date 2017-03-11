@@ -1,3 +1,4 @@
+# language: en
 Feature: Dialog locators and events
 
   Scenario: Dialog manipulation

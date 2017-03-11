@@ -36,4 +36,4 @@ module Swinger
   end
 end
 
-World(Swinger::Container) unless in_cucumber_jvm?
+World(Swinger::Container) # unless in_cucumber_jvm?

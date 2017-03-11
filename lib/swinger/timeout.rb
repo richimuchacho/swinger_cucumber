@@ -30,4 +30,4 @@ module Swinger
   end
 end
 
-World(Swinger::Timeout) unless in_cucumber_jvm?
+World(Swinger::Timeout) # unless in_cucumber_jvm?

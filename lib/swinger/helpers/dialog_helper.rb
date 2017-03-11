@@ -8,4 +8,4 @@ module Swinger
   end
 end
 
-World(Swinger::Dialog) unless in_cucumber_jvm?
+World(Swinger::Dialog) # unless in_cucumber_jvm?

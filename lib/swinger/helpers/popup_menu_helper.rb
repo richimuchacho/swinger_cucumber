@@ -9,4 +9,4 @@ module Swinger
   end
 end
 
-World(Swinger::PopupMenu) unless in_cucumber_jvm?
+World(Swinger::PopupMenu) # unless in_cucumber_jvm?

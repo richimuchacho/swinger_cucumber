@@ -25,4 +25,4 @@ module Swinger
   end
 end
 
-World(Swinger::MouseRobot) unless in_cucumber_jvm?
+World(Swinger::MouseRobot) # unless in_cucumber_jvm?

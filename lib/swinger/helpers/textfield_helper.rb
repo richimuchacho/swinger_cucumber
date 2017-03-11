@@ -17,4 +17,4 @@ module Swinger
   end
 end
 
-World(Swinger::TextField) unless in_cucumber_jvm?
+World(Swinger::TextField) # unless in_cucumber_jvm?

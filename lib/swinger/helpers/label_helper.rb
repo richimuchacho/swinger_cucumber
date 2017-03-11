@@ -20,4 +20,4 @@ module Swinger
   end
 end
 
-World(Swinger::Label) unless in_cucumber_jvm?
+World(Swinger::Label) # unless in_cucumber_jvm?

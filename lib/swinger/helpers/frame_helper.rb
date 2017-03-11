@@ -14,4 +14,4 @@ module Swinger
   end
 end
 
-World(Swinger::Frame) unless in_cucumber_jvm?
+World(Swinger::Frame) # unless in_cucumber_jvm?
