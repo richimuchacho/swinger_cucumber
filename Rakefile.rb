@@ -1,5 +1,4 @@
 require 'rubygems'
-# require 'rcov'
 require 'cucumber'
 require 'cucumber/rake/task'
 
